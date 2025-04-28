@@ -48,7 +48,7 @@ export default function Contact() {
                       </div>
                       <div>
                         <p className="text-sm text-gray-400 mb-1">Email</p>
-                        <a href="mailto:john@devops-expert.com" className="text-white hover:text-primary transition duration-200">john@devops-expert.com</a>
+                        <a href="mailto:rolo5555@cloud-engineer.com" className="text-white hover:text-primary transition duration-200">rolo5555@cloud-engineer.com</a>
                       </div>
                     </div>
                     

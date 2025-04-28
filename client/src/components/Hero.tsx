@@ -13,7 +13,7 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-            DevOps Engineering <span className="text-primary">& Infrastructure</span> Solutions
+            Cloud Engineering <span className="text-primary">& Infrastructure</span> Solutions
           </motion.h1>
           
           <motion.p 
@@ -22,7 +22,7 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
-            Building scalable, reliable and automated infrastructure for modern applications
+            Building scalable, resilient systems with a focus on security and innovation
           </motion.p>
           
           <motion.div 
