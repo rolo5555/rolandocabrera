@@ -16,29 +16,29 @@ export default function About() {
             >
               <h2 className="text-3xl md:text-4xl font-display font-bold mb-6 text-white">About Me</h2>
               <p className="text-gray-300 mb-6 leading-relaxed">
-                I'm a DevOps Engineer with over 7 years of experience architecting and implementing robust cloud infrastructure solutions. My expertise lies in container orchestration, CI/CD automation, and cloud-native technologies.
+                With three years of experience as a Cloud Engineer, I have a proven track record of building scalable, resilient systems while fostering a passion for continuous learning and innovation.
               </p>
               <p className="text-gray-300 mb-6 leading-relaxed">
-                Throughout my career, I've helped organizations of all sizes streamline their development workflows, reduce operational overhead, and improve system reliability through proper DevOps practices.
+                I am particularly skilled in infrastructure and security, ensuring robust and secure solutions. What motivates me most is working collaboratively with diverse teams to tackle complex challenges and deliver high-quality results that make a meaningful impact.
               </p>
               <div className="space-y-4 mb-8">
                 <div className="flex items-center">
                   <div className="w-8 h-8 rounded-lg bg-primary/10 flex items-center justify-center mr-3">
-                    <i className="fas fa-graduation-cap text-primary"></i>
-                  </div>
-                  <span className="text-gray-300">MSc in Computer Science, Stanford University</span>
-                </div>
-                <div className="flex items-center">
-                  <div className="w-8 h-8 rounded-lg bg-primary/10 flex items-center justify-center mr-3">
                     <i className="fas fa-briefcase text-primary"></i>
                   </div>
-                  <span className="text-gray-300">Lead DevOps Engineer at TechCorp</span>
+                  <span className="text-gray-300">Cloud Engineer with 3 years of experience</span>
                 </div>
                 <div className="flex items-center">
                   <div className="w-8 h-8 rounded-lg bg-primary/10 flex items-center justify-center mr-3">
-                    <i className="fas fa-award text-primary"></i>
+                    <i className="fas fa-shield-alt text-primary"></i>
                   </div>
-                  <span className="text-gray-300">AWS Certified Solutions Architect & DevOps Engineer</span>
+                  <span className="text-gray-300">Specialized in Infrastructure and Security</span>
+                </div>
+                <div className="flex items-center">
+                  <div className="w-8 h-8 rounded-lg bg-primary/10 flex items-center justify-center mr-3">
+                    <i className="fas fa-users text-primary"></i>
+                  </div>
+                  <span className="text-gray-300">Team Collaboration and Problem Solving</span>
                 </div>
               </div>
               <Button
@@ -47,7 +47,7 @@ export default function About() {
                 size="lg"
                 className="bg-transparent border border-white/20 hover:border-white/40 text-white"
               >
-                <a href="#">
+                <a href="https://github.com/rolo5555/rolo5555.github.io/raw/main/CABRERABLANCHROLANDO_CV_2024_SRE.pdf" target="_blank" rel="noopener noreferrer">
                   <i className="fas fa-file-alt mr-2"></i> Download Resume
                 </a>
               </Button>
@@ -64,8 +64,8 @@ export default function About() {
               <div className="relative">
                 <div className="w-full aspect-square rounded-2xl overflow-hidden border-2 border-white/10 shadow-xl">
                   <img 
-                    src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" 
-                    alt="John Doe, DevOps Engineer" 
+                    src="https://images.unsplash.com/photo-1603575448878-868a20723f5d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" 
+                    alt="rolo5555, Cloud Engineer" 
                     className="w-full h-full object-cover"
                   />
                 </div>
@@ -76,7 +76,7 @@ export default function About() {
                   viewport={{ once: true }}
                   transition={{ duration: 0.5, delay: 0.3 }}
                 >
-                  <div className="text-lg font-semibold text-white">7+ Years</div>
+                  <div className="text-lg font-semibold text-white">3 Years</div>
                   <div className="text-sm text-gray-300">Professional Experience</div>
                 </motion.div>
               </div>

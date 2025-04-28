@@ -37,7 +37,7 @@ export default function Header() {
             transition={{ duration: 0.5 }}
           >
             <i className="fas fa-terminal mr-2 text-primary"></i>
-            <span>John<span className="text-primary">DevOps</span></span>
+            <span>rolo<span className="text-primary">5555</span></span>
           </motion.a>
           
           {/* Desktop Navigation */}
