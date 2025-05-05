@@ -21,6 +21,10 @@ jobs:
 
       - name: Build
         run: npx vite build
+        env:
+          # These env vars will be used by vite.config.ts to set the correct base path
+          GITHUB_ACTIONS: ${{ github.actions }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
