@@ -69,7 +69,7 @@ export default function ContactForm() {
                 <FormLabel className="text-sm font-medium text-gray-400">Your Name</FormLabel>
                 <FormControl>
                   <Input 
-                    placeholder="John Smith"
+                    placeholder="Rolando Cabrera"
                     className="w-full bg-dark border border-white/10 rounded-lg px-4 py-3 text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-transparent transition duration-200"
                     {...field}
                   />
@@ -87,7 +87,7 @@ export default function ContactForm() {
                 <FormLabel className="text-sm font-medium text-gray-400">Your Email</FormLabel>
                 <FormControl>
                   <Input 
-                    placeholder="john@example.com"
+                    placeholder="rolando.cabrera@ib.edu.ar"
                     className="w-full bg-dark border border-white/10 rounded-lg px-4 py-3 text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-transparent transition duration-200"
                     {...field}
                   />
