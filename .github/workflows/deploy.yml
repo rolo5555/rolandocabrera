@@ -31,3 +31,5 @@ jobs:
         with:
           folder: dist/public
           branch: gh-pages
+          token: ${{ secrets.DEPLOY_TOKEN }}
+          clean: true
