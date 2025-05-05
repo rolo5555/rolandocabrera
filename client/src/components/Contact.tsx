@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import ContactForm from "./ContactForm";
 import { Card, CardContent } from "@/components/ui/card";
 
 export default function Contact() {
@@ -34,9 +33,9 @@ export default function Contact() {
           viewport={{ once: true }}
           transition={{ duration: 0.8, delay: 0.3 }}
         >
-          <div className="grid grid-cols-1 md:grid-cols-5 gap-8">
+          <div className="flex justify-center">
             {/* Contact Info */}
-            <div className="md:col-span-2">
+            <div className="md:w-2/3 lg:w-1/2">
               <Card className="bg-dark-mid/40 backdrop-blur-sm border border-white/10 rounded-xl h-full">
                 <CardContent className="p-6">
                   <h3 className="text-xl font-display font-semibold mb-6 text-white">Contact Information</h3>
@@ -48,7 +47,7 @@ export default function Contact() {
                       </div>
                       <div>
                         <p className="text-sm text-gray-400 mb-1">Email</p>
-                        <a href="mailto:rolo5555@cloud-engineer.com" className="text-white hover:text-primary transition duration-200">rolo5555@cloud-engineer.com</a>
+                        <a href="mailto:rolando.cabrera@ib.edu.ar" className="text-white hover:text-primary transition duration-200">rolando.cabrera@ib.edu.ar</a>
                       </div>
                     </div>
                     
@@ -58,7 +57,7 @@ export default function Contact() {
                       </div>
                       <div>
                         <p className="text-sm text-gray-400 mb-1">Location</p>
-                        <p className="text-white">San Francisco, California</p>
+                        <p className="text-white">Rosario, Argentina</p>
                       </div>
                     </div>
                     
@@ -69,44 +68,19 @@ export default function Contact() {
                       <div>
                         <p className="text-sm text-gray-400 mb-1">Social Profiles</p>
                         <div className="flex space-x-4 mt-2">
-                          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-primary transition duration-200">
+                          <a href="https://www.linkedin.com/in/rcabrerablanch/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-primary transition duration-200">
                             <i className="fab fa-linkedin text-xl"></i>
                           </a>
-                          <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-primary transition duration-200">
+                          <a href="https://github.com/rolo5555" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-primary transition duration-200">
                             <i className="fab fa-github text-xl"></i>
                           </a>
-                          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-primary transition duration-200">
-                            <i className="fab fa-twitter text-xl"></i>
-                          </a>
-                          <a href="https://stackoverflow.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-primary transition duration-200">
-                            <i className="fab fa-stack-overflow text-xl"></i>
+                          <a href="https://rolo5555.github.io/blog/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-primary transition duration-200">
+                            <i className="fas fa-blog text-xl"></i>
                           </a>
                         </div>
                       </div>
                     </div>
                   </div>
-                  
-                  <div className="mt-10 pt-8 border-t border-white/10">
-                    <p className="text-gray-300 mb-4">Prefer scheduling a meeting?</p>
-                    <a 
-                      href="https://calendly.com" 
-                      target="_blank" 
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center bg-primary/10 text-primary hover:bg-primary/20 py-2 px-4 rounded-lg font-medium transition duration-200"
-                    >
-                      <i className="far fa-calendar-alt mr-2"></i> Schedule a Call
-                    </a>
-                  </div>
-                </CardContent>
-              </Card>
-            </div>
-            
-            {/* Contact Form */}
-            <div className="md:col-span-3">
-              <Card className="bg-dark-mid/40 backdrop-blur-sm border border-white/10 rounded-xl">
-                <CardContent className="p-6">
-                  <h3 className="text-xl font-display font-semibold mb-6 text-white">Send a Message</h3>
-                  <ContactForm />
                 </CardContent>
               </Card>
             </div>

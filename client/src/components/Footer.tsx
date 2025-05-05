@@ -42,17 +42,14 @@ export default function Footer() {
             transition={{ duration: 0.6, delay: 0.3 }}
           >
             <div className="flex space-x-4">
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-primary transition duration-200">
+              <a href="https://www.linkedin.com/in/rcabrerablanch/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-primary transition duration-200">
                 <i className="fab fa-linkedin text-xl"></i>
               </a>
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-primary transition duration-200">
+              <a href="https://github.com/rolo5555" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-primary transition duration-200">
                 <i className="fab fa-github text-xl"></i>
               </a>
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-primary transition duration-200">
-                <i className="fab fa-twitter text-xl"></i>
-              </a>
-              <a href="https://stackoverflow.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-primary transition duration-200">
-                <i className="fab fa-stack-overflow text-xl"></i>
+              <a href="https://rolo5555.github.io/blog/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-primary transition duration-200">
+                <i className="fas fa-blog text-xl"></i>
               </a>
             </div>
           </motion.div>

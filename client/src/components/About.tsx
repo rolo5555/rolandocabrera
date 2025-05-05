@@ -64,8 +64,8 @@ export default function About() {
               <div className="relative">
                 <div className="w-full aspect-square rounded-2xl overflow-hidden border-2 border-white/10 shadow-xl">
                   <img 
-                    src="https://images.unsplash.com/photo-1603575448878-868a20723f5d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" 
-                    alt="rolo5555, Cloud Engineer" 
+                    src="/rolando.jpeg" 
+                    alt="Rolando Cabrera, Cloud Engineer" 
                     className="w-full h-full object-cover"
                   />
                 </div>
