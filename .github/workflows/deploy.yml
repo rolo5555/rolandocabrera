@@ -20,16 +20,12 @@ jobs:
         run: npm install
 
       - name: Build
-        run: npx vite build
-        env:
-          # These env vars will be used by vite.config.ts to set the correct base path
-          GITHUB_ACTIONS: ${{ github.actions }}
-          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: npm run build
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: dist/public
           branch: gh-pages
-          token: ${{ secrets.DEPLOY_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           clean: true
